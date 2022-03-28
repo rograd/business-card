@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/front.xsl"?>
+<Card>
+    <Company>Program</Company>
+    <FullName>Imie Nazwisko</FullName>
+    <Services caption="oferta">
+        <Service>programowanie obiektowe</Service>
+        <Service>administracja bazami danych</Service>
+        <Service>tworzenie stron internetowych</Service>
+    </Services>
+    <Phone>+48 000 000 000</Phone>
+    <Email>radek@dev.local</Email>
+    <Address>Ulica nr | 00-000 Warszawa</Address>
+</Card>

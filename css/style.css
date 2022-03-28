@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --primary-color: #ee2225;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--color);
+    font-family: "Rubik";
+    font-size: 8pt;
+    width: 94mm;
+    height: 54mm;
+    padding: 2mm;
+}
+
+main {
+    height: 100%;
+    padding: 3mm;
+}

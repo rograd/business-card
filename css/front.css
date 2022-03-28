@@ -1,0 +1,48 @@
+@import url("style.css");
+
+:root {
+    --color: #000;
+}
+
+main {
+    background: linear-gradient(15deg, #eee, #fff, #eee);
+    border-bottom: 6px solid var(--primary-color);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    border-left: 4px solid var(--primary-color);
+    font-weight: normal;
+    padding-left: 0.25rem;
+}
+
+header h3 {
+    color: var(--primary-color);
+}
+
+header img {
+    width: 48px;
+}
+
+header h1,
+#services h2,
+#services ul {
+    text-transform: uppercase;
+}
+
+#services {
+    text-align: right;
+}
+
+section ul {
+    list-style: none;
+}
